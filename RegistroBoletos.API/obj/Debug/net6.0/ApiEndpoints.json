@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "RegistroBoletos.API.Controllers.Bancos.BancoController",
+    "Method": "InserirNovoBanco",
+    "RelativePath": "api/Banco/InserirNovoBanco",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RegistroBoletos.Application.Bancos.Dtos.InserirBancoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroBoletos.API.Controllers.Bancos.BancoController",
+    "Method": "ListarTodos",
+    "RelativePath": "api/Banco/ListarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroBoletos.API.Controllers.Bancos.BancoController",
+    "Method": "RecuperarBanco",
+    "RelativePath": "api/Banco/RecuperarBanco/{codigoBanco}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoBanco",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroBoletos.API.Controllers.Boletos.BoletoController",
+    "Method": "InserirNovoBoleto",
+    "RelativePath": "api/Boleto/InserirNovoBoleto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RegistroBoletos.Application.Boletos.Dtos.BoletoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroBoletos.API.Controllers.Boletos.BoletoController",
+    "Method": "ListarTodosBoletos",
+    "RelativePath": "api/Boleto/ListarTodosBoletos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroBoletos.API.Controllers.Boletos.BoletoController",
+    "Method": "RecuperarBoleto",
+    "RelativePath": "api/Boleto/RecuperarBoleto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

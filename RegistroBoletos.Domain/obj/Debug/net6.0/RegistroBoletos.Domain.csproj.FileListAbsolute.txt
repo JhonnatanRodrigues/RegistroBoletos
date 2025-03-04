@@ -1,0 +1,14 @@
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\bin\Debug\net6.0\RegistroBoletos.Domain.exe
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\bin\Debug\net6.0\RegistroBoletos.Domain.deps.json
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\bin\Debug\net6.0\RegistroBoletos.Domain.runtimeconfig.json
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\bin\Debug\net6.0\RegistroBoletos.Domain.dll
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\bin\Debug\net6.0\RegistroBoletos.Domain.pdb
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.AssemblyInfoInputs.cache
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.AssemblyInfo.cs
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.csproj.CoreCompileInputs.cache
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.dll
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\refint\RegistroBoletos.Domain.dll
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.pdb
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\RegistroBoletos.Domain.genruntimeconfig.cache
+D:\Jhonnatan\Desenv\ApiRegistroBoleto\RegistroBoletos\RegistroBoletos.Domain\obj\Debug\net6.0\ref\RegistroBoletos.Domain.dll

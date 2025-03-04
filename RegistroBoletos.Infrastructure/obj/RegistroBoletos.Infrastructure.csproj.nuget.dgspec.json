@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Infrastructure\\RegistroBoletos.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Domain\\RegistroBoletos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Domain\\RegistroBoletos.Domain.csproj",
+        "projectName": "RegistroBoletos.Domain",
+        "projectPath": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Domain\\RegistroBoletos.Domain.csproj",
+        "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
+        "outputPath": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Arquivos de programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jhonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Infrastructure\\RegistroBoletos.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Infrastructure\\RegistroBoletos.Infrastructure.csproj",
+        "projectName": "RegistroBoletos.Infrastructure",
+        "projectPath": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Infrastructure\\RegistroBoletos.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jhonn\\.nuget\\packages\\",
+        "outputPath": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Arquivos de programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jhonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Domain\\RegistroBoletos.Domain.csproj": {
+                "projectPath": "D:\\Jhonnatan\\Desenv\\ApiRegistroBoleto\\RegistroBoletos\\RegistroBoletos.Domain\\RegistroBoletos.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "RegistroBoletos.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Banco/InserirNovoBanco": {
+      "post": {
+        "tags": [
+          "Banco"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InserirBancoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InserirBancoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InserirBancoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Banco/ListarTodos": {
+      "get": {
+        "tags": [
+          "Banco"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Banco/RecuperarBanco/{codigoBanco}": {
+      "get": {
+        "tags": [
+          "Banco"
+        ],
+        "parameters": [
+          {
+            "name": "codigoBanco",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Boleto/InserirNovoBoleto": {
+      "post": {
+        "tags": [
+          "Boleto"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoletoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoletoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoletoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Boleto/RecuperarBoleto/{id}": {
+      "get": {
+        "tags": [
+          "Boleto"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Boleto/ListarTodosBoletos": {
+      "get": {
+        "tags": [
+          "Boleto"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BoletoDto": {
+        "type": "object",
+        "properties": {
+          "nomePagador": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpfCnpjPagador": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomeBeneficiario": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpfCnpjBeneficiario": {
+            "type": "string",
+            "nullable": true
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "dataVencto": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "obs": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigoBanco": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InserirBancoDto": {
+        "type": "object",
+        "properties": {
+          "nomeBanco": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigoBanco": {
+            "type": "string",
+            "nullable": true
+          },
+          "juroPerc": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
